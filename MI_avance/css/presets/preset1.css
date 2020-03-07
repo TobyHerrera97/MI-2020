@@ -1,0 +1,400 @@
+/* Global styles
+================================================== */
+
+a{
+	color: #fff;
+}
+
+a.read-more:hover{
+	color: black;
+}
+
+
+/* Typography
+================================================== */
+
+.btn.btn-primary{
+	border: 2px solid rgb(192, 40, 46);
+}
+
+.btn.btn-primary:hover{
+	background: rgb(192, 40, 46);
+}
+
+.btn.btn-primary.solid{
+	background: rgb(192, 40, 46);
+}
+
+ul.circle li:before{
+	color: rgb(192, 40, 46);
+}
+
+ul.check-list li i{
+	color: rgb(192, 40, 46);
+}
+
+blockquote {
+	border-left: 5px solid rgb(192, 40, 46);
+}
+
+/* Common styles
+================================================== */
+
+.heading:hover .title-icon{
+	color: rgb(192, 40, 46);
+}
+
+h2.entry-title a:hover{
+	color: rgb(192, 40, 46);
+}
+
+/* Icon pentagon */
+
+.icon-pentagon{
+	background: none repeat scroll 0 0 rgb(192, 40, 46);
+}
+
+.icon-pentagon:before{
+	border-bottom: 10px solid rgb(192, 40, 46);
+}
+
+.icon-pentagon:after {
+	border-top: 10px solid rgb(192, 40, 46);
+}
+
+.service-icon:before {
+	border-bottom: 30px solid rgb(192, 40, 46);
+}
+
+.service-icon:after {
+	border-top: 30px solid rgb(192, 40, 46);
+}
+
+/* Carousel controller */
+
+.ts-carousel-controller .left:hover,
+.ts-carousel-controller .right:hover,
+.owl-controls .owl-prev:hover, 
+.owl-controls .owl-next:hover{
+	background: rgb(192, 40, 46);
+}
+
+/* Input form */
+
+.form-control:focus{
+	border: 1px solid rgb(192, 40, 46) !important;
+}
+
+/* Flex Slider */
+
+.portfolio-slider .flex-direction-nav a:hover,
+.second-slider .flex-direction-nav a:hover {
+	background: rgb(192, 40, 46);
+}
+
+/* Pagination */
+
+.pagination>.active>a, .pagination>.active>a:hover,
+.pagination>li>a:hover{
+	background: rgb(192, 40, 46);
+}
+
+/* Header area
+================================================== */
+
+/*-- Header --*/
+.header{
+	border-top: 5px solid rgb(192, 40, 46);
+}
+
+.header-solid ul.navbar-nav > li:hover > a, .header-solid ul.navbar-nav > li.active > a {
+  color: black;
+}
+
+/*-- Logo --*/
+
+.navbar-brand{
+	background: transparent;
+}
+
+/*-- Main navigation --*/
+
+ul.navbar-nav > li:hover > a, 
+ul.navbar-nav > li.active > a{
+	color: black;
+	background-color: rgb(192, 40, 46);
+}
+
+.navbar-toggle{
+	background: black;
+	background-color: rgb(192, 40, 46);
+}
+
+.dropdown-menu > ul > li.active > a{
+	color: black;
+	background-color: rgb(192, 40, 46);
+}
+
+.dropdown-menu > ul > li>a:hover, 
+.dropdown-menu > ul > li>a:focus{
+	color: #fff;
+	background-color: rgb(192, 40, 46);
+}
+
+
+/* Header area - 2
+================================================== */
+
+/*-- Header bgnone fixed --*/
+
+.header-bgnone{
+	background: rgb(192, 40, 46);
+}
+
+
+/* Slideshow
+================================================== */
+
+/*-- Main slide --*/
+
+#main-slide .carousel-indicators li.active,
+#main-slide .carousel-indicators li:hover {
+    background-color: rgb(192, 40, 46);
+}
+
+#main-slide .carousel-control i:hover{
+	background: rgb(192, 40, 46);
+}
+
+
+/* Image Block
+================================================== */
+
+.image-block-content .feature-icon{
+	background: rgb(192, 40, 46);
+}
+
+
+
+/* Portfolio
+================================================== */
+
+.isotope-nav ul li a{
+	border: 1px solid rgb(192, 40, 46);
+}
+
+.isotope-nav ul a.active, 
+.isotope-nav ul a:hover{
+	background: rgb(192, 40, 46);
+}
+
+.isotope-nav ul a.active:after, 
+.isotope-nav ul a:hover:after{
+	border-color: rgb(192, 40, 46) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+
+/* Feature box
+================================================== */
+.feature-icon{
+	color: rgb(192, 40, 46);
+}
+
+.feature-center-icon{
+	color: rgb(192, 40, 46);
+}
+
+
+/* About us
+================================================== */
+
+/* Featured Tab */
+
+.featured-tab .nav-tabs>li.active>a{
+	background: rgb(192, 40, 46);
+}
+
+.featured-tab .nav-tabs>li.active>a:after{
+	border-left-color: rgb(192, 40, 46);
+}
+
+.featured-tab .nav-tabs>li>a:hover{
+	background: rgb(192, 40, 46);
+	color: #fff;
+}
+.featured-tab .nav-tabs>li>a:hover:after{
+	border-left-color: rgb(192, 40, 46);
+}
+
+/* Pricing table
+================================================== */
+
+.plan.featured .plan-price{
+	background: rgb(192, 40, 46);
+}
+.plan.featured .plan-price:after{
+	border-top-color: rgb(192, 40, 46);
+}
+
+/* Testimonial
+================================================== */
+
+.testimonial-slide .testimonial-text:before{
+	color: rgb(192, 40, 46);
+}
+
+.testimonial-slide .testimonial-text:after{
+	color: rgb(192, 40, 46);
+}
+
+.testimonial-slide.owl-theme .owl-controls .owl-page.active span{
+	background: rgb(192, 40, 46);
+}
+
+/* Recent Post
+================================================== */
+
+.post-img-overlay a:hover{
+	background: rgb(192, 40, 46);
+}
+
+
+/* Footer
+================================================== */
+
+.copyright-info a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.footer2 .copyright-info a{
+	color: rgb(192, 40, 46);
+}
+
+#back-to-top .btn.btn-primary:hover{
+	background: rgb(192, 40, 46);
+}
+
+.footer-about-us h4{
+	color: rgb(192, 40, 46);
+}
+
+.footer-widget .latest-post-content h4 a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.subscribe button{
+	background: rgb(192, 40, 46);
+}
+
+
+
+/* Blog Item page
+================================================== */
+
+.post-meta a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.author-url span a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.comments-counter a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.comments-list .comment-reply:hover{
+	color: rgb(192, 40, 46);
+}
+
+/*-- Blog sidebar --*/
+
+.widget-tab .nav-tabs>li.active>a{
+	background: rgb(192, 40, 46);
+}
+
+.widget-tab h4.entry-title a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.widget-tags ul > li a:hover{
+	background: rgb(192, 40, 46);
+}
+
+/* Landing page
+================================================== */
+
+.landing-header.header-bgnone ul.navbar-nav > li:hover > a, 
+.landing-header.header-bgnone ul.navbar-nav > li.active > a {
+	color: rgb(192, 40, 46);
+}
+
+.features-content .features-icon{
+	color: rgb(192, 40, 46);
+}
+
+.landing_facts{
+	background: rgb(192, 40, 46);
+}
+
+.landing-tab .nav-tabs>li.active{
+	border-right: 5px solid rgb(192, 40, 46);
+}
+
+.landing-tab .nav-tabs>li.active>a i{
+	color: rgb(192, 40, 46);
+}
+
+.landing-tab .nav-tabs>li>a:hover{
+	color: rgb(192, 40, 46) !important;
+}
+
+.landing-tab .tab-pane i.big{
+	color: rgb(192, 40, 46);
+}
+
+.app-gallery.owl-theme .owl-controls .owl-page.active span{
+	background: rgb(192, 40, 46);
+}
+
+.landing_page_clients{
+	background: rgb(192, 40, 46);
+}
+
+/* Misc */
+
+.title-border{
+	border-bottom: 2px solid rgb(192, 40, 46);
+}
+
+.post-title a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.portfolio-static-desc a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.client-carousel .item a:hover{
+	border: 1px solid rgb(192, 40, 46);
+}
+
+.footer ul li a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.call-to-action{
+	background: rgb(192, 40, 46);
+}
+
+.blog-date{
+	background: rgb(192, 40, 46);
+}
+
+.widget-categories ul.category-list  li a:hover{
+	color: rgb(192, 40, 46);
+}
+
+.about-message ul li a:hover{
+	color: rgb(192, 40, 46);
+}
